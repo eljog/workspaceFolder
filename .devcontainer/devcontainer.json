@@ -1,5 +1,5 @@
 {
    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-   "initializeCommand": "docker-compose -v",
+   "initializeCommand": "docker-compose -v && cat /.codespaces/os-image-info",
    "onCreateCommand": "git clone https://github.com/codspace/django-quiz-app.git /workspaces/django-quiz-app2"
 }
