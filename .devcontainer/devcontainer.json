@@ -1,6 +1,5 @@
 {
    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-   "workspaceFolder": "/workspaces/repos/django-quiz-app",
-   "initializeCommand": "mkdir -p ${localWorkspaceFolder}/../repos/django-quiz-app",
-   "onCreateCommand": "git clone https://github.com/codspace/django-quiz-app.git /workspaces/repos/django-quiz-app"
+   "initializeCommand": "docker-compose -v",
+   "onCreateCommand": "git clone https://github.com/codspace/django-quiz-app.git /workspaces/django-quiz-app2"
 }
