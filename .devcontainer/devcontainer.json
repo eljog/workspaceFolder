@@ -1,5 +1,5 @@
 {
    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
-   "onCreateCommand": ".devcontainer/secrets.sh",
-   "postAttachCommand": ".devcontainer/secrets.sh"
+   "onCreateCommand": "bash .devcontainer/secrets.sh",
+   "postAttachCommand": "bash .devcontainer/secrets.sh"
 }
